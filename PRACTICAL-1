@@ -1,0 +1,37 @@
+print("Hello! I am personal cleaner.")
+print("build a cleaning robot. 🤖")
+print(2 + 3, "is the answer to 2 + 3")
+room = ["D", "C", "D", "D", "C"]
+
+def show_room(room):
+    picture = ""
+    for spot in room:
+        if spot == "D":
+            picture += "💩 "    
+        else:
+            picture += "✨ "   
+    print(picture)
+
+print("Our room right now!")
+show_room(room)
+
+
+def clean_spot(spot):
+    if spot == "D":           
+      
+        return "C"
+    else:
+        return "C"  
+
+result = clean_spot("D")
+print("The robot looked at a dirty spot and made it:", result, "(C means clean)")
+print("BEFORE - the dirty room:")
+show_room(room)
+
+for i in range(len(room)):
+    room[i] = clean_spot(room[i])
+    print("After cleaning spot number", i + 1, ":")
+    show_room(room)
+
+print()
+print("AFTER - all done!")
