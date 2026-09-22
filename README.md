@@ -52,3 +52,13 @@ This Python program is a simple expert system for laptop troubleshooting. It ask
 
 ## Conclusion
 This project demonstrates how if-elif-else conditions and user input can be used to create a basic expert system. It helps identify common laptop problems and provides simple solutions automatically.
+
+# practical-6:
+
+# Summary
+
+This program solves the Map Coloring Constraint Satisfaction Problem (CSP) using backtracking and consistency checking. Each region is assigned one of the colors Red, Green, or Blue. Before assigning a color, the is_consistent() function checks that no neighboring region has the same color. If a conflict occurs, the program backtracks and tries another color. The process continues until all regions are successfully colored.
+
+# Conclusion
+
+The program successfully demonstrates how CSP, consistency checking, recursion, and backtracking can be used to solve a map-coloring problem. It finds a valid coloring where no two neighboring regions have the same color.
