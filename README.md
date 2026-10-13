@@ -62,3 +62,20 @@ This program solves the Map Coloring Constraint Satisfaction Problem (CSP) using
 # Conclusion
 
 The program successfully demonstrates how CSP, consistency checking, recursion, and backtracking can be used to solve a map-coloring problem. It finds a valid coloring where no two neighboring regions have the same color.
+
+# practical-7:
+
+# Summary
+
+This program uses the Bernoulli Naive Bayes algorithm from Scikit-learn to predict whether a patient has Flu or Cold. It trains the model using sample patient data, predicts diagnoses for two patients, and displays the probability of each diagnosis for the first patient.
+
+# Conclusion
+
+The program successfully demonstrates disease classification using the Bernoulli Naive Bayes algorithm. It predicts the most likely diagnosis based on the training data and displays the prediction probabilities. This is a basic educational example and is not intended for real medical diagnosis.
+
+# practical-9:
+
+# Summary
+This program implements a simple AI planning problem using STRIPS-style actions. It starts at location A and defines the goal as reaching location C. The program finds suitable actions, satisfies their preconditions, updates the current state, and generates a plan to reach the goal.
+# Conclusion
+The program successfully demonstrates the basic concept of STRIPS planning. It generates a sequence of actions, Move A to B and Move B to C, to achieve the goal state At_C.
