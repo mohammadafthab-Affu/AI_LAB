@@ -73,6 +73,16 @@ This program uses the Bernoulli Naive Bayes algorithm from Scikit-learn to predi
 
 The program successfully demonstrates disease classification using the Bernoulli Naive Bayes algorithm. It predicts the most likely diagnosis based on the training data and displays the prediction probabilities. This is a basic educational example and is not intended for real medical diagnosis.
 
+# practical-8:
+
+# Summary
+
+This program implements a mini AI application for text classification using the Multinomial Naive Bayes algorithm. It converts text messages into numerical features using `CountVectorizer`, trains the model with labeled messages, and predicts whether a new message is Spam or Not Spam.
+
+# Conclusion
+
+The program successfully demonstrates text classification using Machine Learning. It predicts the category of a new message based on patterns learned from the training data. This application can be used for basic spam detection and filtering unwanted messages.
+
 # practical-9:
 
 # Summary
